@@ -57,7 +57,7 @@ function validate(bornDay, bornMonth, bornYear){
         setValuesToElements(0, "Must be a valid day","hsl(0, 100%, 67%)", "hsl(0, 100%, 67%)");
         flag = false;
     } else {
-        setValuesToElements(0, "", "hsl(0, 1%, 44%)", "hsl(259, 100%, 65%)");
+        setValuesToElements(0, "", "hsl(0, 1%, 44%)", "hsl(0, 0%, 86%)");
     }
     
     if (bornMonth.value === "") {
@@ -67,7 +67,7 @@ function validate(bornDay, bornMonth, bornYear){
         setValuesToElements(1, "Must be a valid month", "hsl(0, 100%, 67%)", "hsl(0, 100%, 67%)");
         flag = false;
     } else {
-        setValuesToElements(1, "", "hsl(0, 1%, 44%)", "hsl(259, 100%, 65%)");
+        setValuesToElements(1, "", "hsl(0, 1%, 44%)", "hsl(0, 0%, 86%)");
     }
     
     if (bornYear.value === "") {
@@ -77,7 +77,7 @@ function validate(bornDay, bornMonth, bornYear){
         setValuesToElements(2,"Must be a valid year","hsl(0, 100%, 67%)","hsl(0, 100%, 67%)");
         flag = false;
     } else {
-        setValuesToElements(2, "", "hsl(0, 1%, 44%)", "hsl(259, 100%, 65%)");
+        setValuesToElements(2, "", "hsl(0, 1%, 44%)", "hsl(0, 0%, 86%)");
     }
 
     if (flag) {
